@@ -10,6 +10,7 @@ namespace WebAPI.Models
         public string Url { get; set; }
 
         public string State { get; set; }
+        public string Name { get; internal set; }
     }
 
     public class ManageInfoViewModel
